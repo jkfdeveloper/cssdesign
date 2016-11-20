@@ -1,0 +1,94 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+
+	padding:80px;
+
+}
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: #EEE;
+}
+h1{
+	display: inline-block;
+	margin-left: 30px;
+
+}
+nav ul{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+nav ul li{
+	display: inline-block;
+	padding:0 6px;
+
+}
+nav li a{
+	text-decoration: none;
+}
+nav li a:hover{
+	color: red
+}
+.search-section {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+}
+.search-section input{
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	padding:0 5px 0 8px;
+	width: 400px;
+	font-size: 30px;
+}
+.pages{
+	display: inline-block;
+	font-size: 0;
+	margin-bottom: 30px;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+
+}
+.pages-button{
+	font-size: 16px;
+	display: inline-block;
+	padding:8px 15px;
+	border-radius: 3px;
+}
+.pages-display{
+	font-size: 16px;
+	padding:0 30px;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+}
+.listings{
+	padding:0;
+}
+.listing{
+	list-style:none;
+	margin-bottom: 15px;
+}
+.listing-date, .listing-location{
+
+	color: #999;
+	
+}
+.listing-title{
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.search-button{
+	vertical-align: bottom;
+
+}
+.magnifying-glass{
+	height: 30px;
+}
